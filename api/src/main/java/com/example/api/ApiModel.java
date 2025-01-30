@@ -1,6 +1,6 @@
 package com.example.api;
 
-import java.time.Intant;
+import java.time.Instant;
 
 public class ApiModel{
 
