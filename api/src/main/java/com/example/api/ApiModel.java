@@ -25,5 +25,4 @@ public class ApiModel{
     public String getGithub_url(){
         return github_url;
     }
-
 }
