@@ -9,6 +9,9 @@ COPY api/mvnw .
 COPY api/.mvn .mvn
 COPY api/pom.xml .
 
+# ✅ Fix: Grant execution permissions to `mvnw`
+RUN chmod +x mvnw
+
 # Download dependencies (caching layer)
 RUN ./mvnw dependency:go-offline
 
